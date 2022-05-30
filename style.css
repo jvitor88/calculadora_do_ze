@@ -10,7 +10,6 @@
 body {
   background-color: #FFD335;
   background-repeat: no-repeat;
-  font-size: 100%;
   list-style-type: none;
 }
 header {
@@ -41,7 +40,7 @@ main > p {
 h3 {
   display: inline;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
 }
 input {
   border-radius: 15px;
@@ -51,6 +50,9 @@ input {
 div {
   display: inline-block;
   margin: -1px;
+}
+img {
+  margin-right: -5px;
 }
 #botao {
   display: inline-block;
