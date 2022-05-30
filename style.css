@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  background-color: #FFD335;
+  background-repeat: no-repeat;
+  font-size: 100%;
+  list-style-type: none;
+}
+header{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: rgb(180, 3, 3);
+  padding: 20px;
+  text-align: center;
+  background-image: url(midia/espuma.png);
+  background-size: 500px;
+}
+main {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+main > p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+}
+h3 {
+  display: inline;
+  font-style: italic;
+  font-size: 15px;
+}
+input {
+  border-radius: 15px;
+  text-align: center;
+  width: 70px;
+}
+div {
+  display: inline-block;
+  margin: 10px;
+}
+#botao {
+  display: inline-block;
+  margin: auto;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-left: 60px;
+  width: 100px;
+  height: 30px;
+}
+#mloutros {
+  display: block;
+  margin-left: 21px;
+}
+div#resp {
+  display: block;
+  color: black;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora do Zé</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Calculadora do Zé</h1>
+  </header>
+  <main>
+    <p>Calcule a embalagem que mais vale a pena você comprar!</p>
+    <img src="midia/litrao.png" alt="">
+    <div>
+      <h2>Litrão</h2>
+      <p><em>1000 ml</em></p>
+      <h3>R$ </h3><input type="number" id="litrao">
+    </div>
+    <img src="midia/long.png" alt="">
+    <div>
+      <h2>Long Neck</h2>
+      <p><em>330 ml</em></p>
+      <h3>R$ </h3><input type="number" id="long">
+    </div>
+    <img src="midia/garrafa.png" alt="">
+    <div>
+      <h2>Garrafa</h2>
+      <p><em>600 ml</em></p>
+      <h3>R$ </h3><input type="number" id="garrafa">
+    </div>
+    <img src="midia/garrafinha.png" alt="">
+    <div>
+      <h2>Garrafinha</h2>
+      <p><em>300 ml</em></p>
+      <h3>R$ </h3><input type="number" id="garrafinha">
+    </div>
+    <img src="midia/latao.png" alt="">
+    <div>
+      <h2>Latão</h2>
+      <p><em>473 ml</em></p>
+      <h3>R$ </h3><input type="number" id="latao">
+    </div>
+    <img src="midia/lata.png" alt="">
+    <div>
+      <h2>Lata</h2>
+      <p><em>350 ml</em></p>
+      <h3>R$ </h3><input type="number" id="lata">
+    </div>
+    <img src="midia/latinha.png" alt="">
+    <div>
+      <h2>Latinha</h2>
+      <p><em>269 ml</em></p>
+      <h3>R$ </h3><input type="number" id="latinha">
+    </div>
+    <img src="midia/outros.png" alt="">
+    <div>
+      <h2>Outros</h2>
+      <input type="number" id="mloutros" placeholder="Qtd: ml">
+      <h3>R$ </h3><input type="number" id="outros">
+    </div>
+    <input type="button" value="Calcular" id="botao" onclick="calcular()">
+    <input type="button" value="Limpar" id="botao" onclick="limpar()">
+    <div id="resp"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
