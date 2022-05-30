@@ -22,21 +22,21 @@ header {
   background-image: url(midia/espuma.png);
   width: auto;
   height: 200px;
-  min-width: 320px;
+  min-width: 10em;
 }
 main {
   display: block;
   margin: auto;
-  min-width: 320px;
-  width: 320px;
+  min-width: 20em;
+  width: 20em;
 }
 main > p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font: bold;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   padding: 15px;
-  min-width: 320px;
+  min-width: 15em;
 }
 h3 {
   display: inline;
@@ -46,7 +46,7 @@ h3 {
 input {
   border-radius: 15px;
   text-align: center;
-  width: 60px;
+  width: 4.5em;
 }
 div {
   display: inline-block;
@@ -57,9 +57,9 @@ div {
   margin: auto;
   font-size: 15px;
   font-weight: bolder;
-  margin-top: 15px;
-  margin-left:50px;
-  width: 100px;
+  margin-top: 30px;
+  margin-left:40px;
+  width: 7em;
   height: 30px;
 }
 #botao:hover {
