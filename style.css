@@ -7,13 +7,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+body {
   background-color: #FFD335;
   background-repeat: no-repeat;
   font-size: 100%;
   list-style-type: none;
 }
-header{
+header {
   font-family: 'Lobster', cursive;
   font-size: 30px;
   color: rgb(180, 3, 3);
@@ -26,7 +26,7 @@ header{
 main {
   display: block;
   margin: auto;
-  width: 380px;
+  width: 370px;
 }
 main > p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
