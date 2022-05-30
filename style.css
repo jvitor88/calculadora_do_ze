@@ -20,19 +20,20 @@ header{
   padding: 20px;
   text-align: center;
   background-image: url(midia/espuma.png);
-  background-size: 500px;
+  background-repeat: no-repeat;
+  background-size: 800px;
 }
 main {
   display: block;
   margin: auto;
-  width: 400px;
+  width: 380px;
 }
 main > p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font: bold;
   font-size: 25px;
   text-align: center;
-  margin: 15px;
+  padding: 15px;
 }
 h3 {
   display: inline;
