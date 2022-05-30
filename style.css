@@ -22,13 +22,13 @@ header {
   background-image: url(midia/espuma.png);
   width: auto;
   height: 200px;
-  min-width: 355px;
+  min-width: 340px;
 }
 main {
   display: block;
   margin: auto;
-  min-width: 355px;
-  width: 355px;
+  min-width: 340px;
+  width: 340px;
 }
 main > p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,7 +36,7 @@ main > p {
   font-size: 25px;
   text-align: center;
   padding: 15px;
-  min-width: 355px;
+  min-width: 340px;
 }
 h3 {
   display: inline;
@@ -55,18 +55,23 @@ div {
 #botao {
   display: inline-block;
   margin: auto;
+  font-size: 15px;
   font-weight: bolder;
   margin-top: 15px;
-  margin-left: 60px;
+  margin-left:50px;
   width: 100px;
   height: 30px;
+}
+#botao:hover {
+  background-color: rgb(199, 199, 199);
+  color: black;
 }
 #mloutros {
   display: block;
   margin-left: 18px;
 }
-#litrao, #latao, #latinha, #garrafa{
-  margin-right: 15px;
+#litrao, #latao, #latinha, #garrafa {
+  margin-right: 1px;
 }
 div#resp {
   display: block;
