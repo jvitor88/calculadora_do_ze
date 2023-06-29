@@ -5,14 +5,14 @@ function calcular() {
   resultado.innerHTML = ''
   //Array com objetos, recebendo os inputs e já calculando o valor/ml.
   let cervejas = [
-    {nome: "Litrão", valor: (Number(document.getElementById('litrao').value)/1000)},
-    {nome: "Long Neck", valor: (Number(document.getElementById('long').value)/330)},
-    {nome: "Garrafa", valor: (Number(document.getElementById('garrafa').value)/600)},
-    {nome: "Garrafinha", valor: (Number(document.getElementById('garrafinha').value)/300)},
-    {nome: "Latão", valor: (Number(document.getElementById('latao').value)/473)},
-    {nome: "Lata", valor: (Number(document.getElementById('lata').value)/350)},
-    {nome: "Latinha", valor: (Number(document.getElementById('latinha').value)/269)},
-    {nome: "Outros", valor: (Number(document.getElementById('outros').value)/Number(document.getElementById('mloutros').value))},
+    {nome: "Litrão 1000ml", valor: (Number(document.getElementById('litrao').value)/1000)},
+    {nome: "Long Neck 330ml", valor: (Number(document.getElementById('long').value)/330)},
+    {nome: "Garrafa 600ml", valor: (Number(document.getElementById('garrafa').value)/600)},
+    {nome: "Mini 300ml", valor: (Number(document.getElementById('mini').value)/300)},
+    {nome: "Latão 473ml", valor: (Number(document.getElementById('latao').value)/473)},
+    {nome: "Lata 350ml", valor: (Number(document.getElementById('lata').value)/350)},
+    {nome: "Latinha 269ml", valor: (Number(document.getElementById('latinha').value)/269)},
+    {nome: "Outros "+ Number(document.getElementById('mloutros').value)+"ml", valor: (Number(document.getElementById('outros').value)/Number(document.getElementById('mloutros').value))},
   ]
   //Função sort com funcão anônima para definir o menor valor.
   cervejas.sort(function(a, b) {
