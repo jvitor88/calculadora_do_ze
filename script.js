@@ -38,7 +38,7 @@ function limpar(){
   document.getElementById('litrao').value = ''
   document.getElementById('long').value = ''
   document.getElementById('garrafa').value = ''
-  document.getElementById('garrafinha').value = ''
+  document.getElementById('mini').value = ''
   document.getElementById('latao').value = ''
   document.getElementById('lata').value = ''
   document.getElementById('latinha').value = ''
