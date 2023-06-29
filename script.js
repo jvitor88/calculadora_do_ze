@@ -30,7 +30,7 @@ function calcular() {
       dados.push(elemento.nome);
   }
   //Print da opção mais barata (primeiro da lista ordenada pelo menor)
-  resultado.innerHTML = `A melhor opção é: <strong>${dados[0]}</strong>`
+  resultado.innerHTML = `A melhor opção é: <br> <strong>${dados[0]}</strong>`
     }
   //Função para limpar os campos
 function limpar(){
